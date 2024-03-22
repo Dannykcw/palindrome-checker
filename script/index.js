@@ -18,7 +18,7 @@ chkBtn.addEventListener("click", () => {
     }
     console.log(result)
     if (outputString == moddedString) {
-      result.textContent = `${inputContent} is a palindrome`;
+      result.innerHTML = `<strong>${inputContent}</strong> is a palindrome`;
     } else {
       result.innerHTML = `<strong>${inputContent}</strong> is not a palindrome`;
     }
